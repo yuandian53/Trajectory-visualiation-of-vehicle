@@ -1,7 +1,7 @@
 # Trajectory-visualiation-of-vehicle
 Trajectory visualiation based on three.js（车辆轨迹的可视化,基于Three.js）  
 
-__function:__show the trajectory of vehicle based on three.js with csv data.  
+**function:**show the trajectory of vehicle based on three.js with csv data.  
 __作用：__根据已有的车辆轨迹数据（csv），实现在三维模型中1：1的展示。  
 
  trajectory data may formatted as data.csv  

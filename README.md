@@ -6,6 +6,5 @@ function:show the trajectory of vehicle based on three.js with csv data.
 
  trajectory data may formatted as data.csv  
   (x:heading direction; y:lateral direction; type:which road the vehicle on; color:the color of vehicle in certain frame )  
-  
-轨迹数据格式要求见data.csv:  
+  轨迹数据格式要求见data.csv:  
 （x为行车方向；z为车道方向；type为车辆行走道路；color为车辆在动画中变化的颜色。）  

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>flow</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/gif" sizes="32x32">
+
+</head>
+
+<body>
+    <div id="grad1">
+        <div class="fileinput">
+            <!-- <button type="button" name="seach" onclick="FuncCSVInport()">CSV Import</button> -->
+            <button class="button button1" type="button" name="option1 " onclick="option1()">click me after your data imported</button>
+            <input type="file" id="csvFileInput" onchange="readCSVFile(this)" />
+        </div>
+        <div class="description">
+            <p>车辆轨迹可视化</p>
+        </div>
+        <div id="output"> </div>
+    </div>
+    <canvas></canvas>
+    <script type="text/javascript" src="js/three.js"></script>
+    <script type="text/javascript" src="js/MapControls.js"></script>
+    <script type="text/javascript" src="js/stats.min.js"></script>
+    <script type="text/javascript" src="js/GLTFLoader.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <!-- <script type="text/javascript" src="js/FontLoader.js"></script> -->
+    <script type="text/javascript" src="https://unpkg.com/vue@next"></script>
+    <script type="text/javascript" src='js/threex.proceduralcity.js'></script>
+
+
+</body>
+
+</html>
